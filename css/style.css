@@ -51,7 +51,7 @@
 
 
 /* portfolio */
-#start-portfolio {
+#start-sezione {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,6 +118,7 @@ footer {
     color: white;
     text-align: center;
     background-color: #326690;
+    margin-top: 20px;
 }
 
 #social-bar {
