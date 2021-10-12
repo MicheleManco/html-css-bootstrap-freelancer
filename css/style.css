@@ -112,3 +112,42 @@
     padding: 10px;
     text-align: center;
 }
+
+/* footer  */
+footer {
+    color: white;
+    text-align: center;
+    background-color: #326690;
+}
+
+#social-bar {
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.sfera-social{
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sfondo-footer-down {
+    background-color: #21353f;
+}
+
+#copyr {
+    margin: 30px 0;
+}
+
+#footer-row {
+    padding: 40px 0;
+}
+
+#footer-row>div {
+    margin: 20px 0;
+}
