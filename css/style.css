@@ -4,7 +4,83 @@
     border: 3px solid black;
 }
 
+/* jumbotron */
+#jumbotron {
+    background-color: #09cd9d;
+}
+
 #jumbo {
-    height: 300px;
-    background-color: chartreuse;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#jumbo img{
+    max-width: 100%;
+    height: 350px;
+    margin: 20px 0;
+}
+
+#jumbotron h1 {
+    color: white;
+}
+
+#jumbotron h6 {
+    color:white;
+}
+
+.line-star-white {
+    display: flex;
+    align-items: center;
+}
+
+.line-star-white div {
+    height: 5px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px 10px;
+}
+
+.line-star-white i {
+    color: white;
+    font-size: 2em;
+}
+
+
+
+/* portfolio */
+#start-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-star-blu {
+    display: flex;
+    align-items: center;
+}
+
+.line-star-blu div {
+    height: 5px;
+    width: 100px;
+    background-color: #21353f;
+    border-radius: 10px;
+    margin: 30px 10px;
+}
+
+.line-star-blu i {
+    color: #21353f;
+    font-size: 2em;
+}
+
+.sfondo {
+    margin: 10px;
+    max-width: 100%;
+}
+
+.sfondo img{
+    max-width: 100%;
+    border-radius: 20px;
 }
