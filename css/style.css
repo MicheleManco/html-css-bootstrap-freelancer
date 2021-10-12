@@ -156,10 +156,18 @@ footer {
 
 /* navi */
 
-.navbar-expand-lg .navbar-collapse {
+.navbar-expand-md .navbar-collapse {
     justify-content: flex-end;
 }
 
 .navbar-nav {
     align-items: flex-end;
+}
+
+
+
+.form-control {
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
 }
