@@ -151,3 +151,14 @@ footer {
 #footer-row>div {
     margin: 20px 0;
 }
+
+
+/* navi */
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    align-items: flex-end;
+}
