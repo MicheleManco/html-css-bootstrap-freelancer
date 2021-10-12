@@ -1,8 +1,8 @@
-[class*=col]{
+/* [class*=col]{
     min-height: 100px;
     background-color: blueviolet;
     border: 3px solid black;
-}
+}   */
 
 /* jumbotron */
 #jumbotron {
@@ -55,6 +55,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 }
 
 .line-star-blu {
@@ -83,4 +84,31 @@
 .sfondo img{
     max-width: 100%;
     border-radius: 20px;
+}
+
+
+.text-white {
+    color: white;
+    background-color: #09cd9d ;
+    margin-top: 20px;
+}
+
+#start-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.p-about {
+    margin: 10px;
+}
+
+#btn-download {
+    width: 150px;
+    margin: 20px auto;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
 }
